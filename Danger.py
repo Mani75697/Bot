@@ -18,7 +18,7 @@ import psutil
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '7168967691:AAH-mISLpUHDRgdKzkbB1gzRUF6qYWMWFcE'
+TOKEN = '7086214341:AAG7SpHWfqRIKF16ExqFMYII4b_ONZ_mfFI'
 MONGO_URI = 'mongodb+srv://Cluster0:Cluster0@cluster0.5mvg9ej.mongodb.net/danger?retryWrites=true&w=majority'
 FORWARD_CHANNEL_ID = -1002335265603
 CHANNEL_ID = -1002335265603
@@ -315,7 +315,7 @@ def handle_attack_command(message):
         if not user_data or user_data['plan'] == 0:
             bot.send_message(chat_id, "*🚫 Access Denied!*\n"
                                        "*You need to be approved to use this bot.*\n"
-                                       "*Contact the owner for assistance: @drabbyt.*", 
+                                       "*Contact the owner for assistance: @Bittu_17*", 
                                        reply_markup=create_inline_keyboard(), parse_mode='Markdown')
             return
 
